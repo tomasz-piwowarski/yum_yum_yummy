@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@plaiceholder/next": "^2.5.0",
+    "@plaiceholder/tailwindcss": "^2.5.0",
+    "@tanstack/react-query": "^4.17.1",
+    "@tanstack/react-query-devtools": "^4.20.4",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "axios": "^1.2.0",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "next": "13.0.5",
+    "plaiceholder": "^2.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.5",
+    "react-hot-toast": "^2.4.0",
+    "react-select": "^5.7.0",
+    "sharp": "^0.31.2",
+    "socket.io-client": "^4.5.4",
+    "typescript": "4.9.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.0",
+    "prettier-plugin-tailwindcss": "^0.2.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
